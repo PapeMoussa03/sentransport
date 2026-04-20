@@ -8,3 +8,8 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+.stats {
+  margin-top: 30px;
+  text-align: center;
+}
