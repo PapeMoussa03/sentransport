@@ -15,7 +15,6 @@ transform : translateX (4 px ) ;
 box-shadow : 0 4 px 8 px rgba (0 , 0 , 0 , 0.15) ;
 }
 .ligne-numero {
-background-color : #0a6e31 ;
 color : white ;
 font-weight : bold ;
 font-size : 1.2 rem ;
