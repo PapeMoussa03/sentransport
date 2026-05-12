@@ -1,22 +1,44 @@
 .App {
-  font-family: Arial, sans-serif;
   min-height: 100vh;
   background-color: #f5f6fa;
-  display: flex;
-  flex-direction: column;
 }
 
 .contenu {
-  padding: 20px;
-  max-width: 800px;
+  max-width: 760px;
   margin: 0 auto;
-  width: 100%;
-  box-sizing: border-box;
-  flex: 1;
+  padding: 24px 16px;
+}
+
+.resultat-recherche {
+  font-size: 0.9rem;
+  color: #636e72;
+  margin-bottom: 12px;
+}
+
+.aucun-resultat {
+  text-align: center;
+  color: #e74c3c;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.compteur-recherche {
+  font-size: 0.85rem;
+  color: #95a5a6;
+  margin-bottom: 8px;
 }
 
 @media (max-width: 600px) {
   .contenu {
     padding: 12px;
+  }
+  .ligne-bus {
+    padding: 10px 12px;
+  }
+  .ligne-numero {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    margin-right: 12px;
   }
 }
